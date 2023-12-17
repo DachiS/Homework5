@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "MenuFont";
+    src: url("../fonts/BebasNeue-Regular.ttf") format("trueType");
+    
+}
+
+body {
+    background-color: #55836f;
+    
+}
+nav {
+    display: inline;
+    text-align: center;
+    font-family: "MenuFont";
+    font-size: 60px;
+    color: white;
+}
+ul{
+    display: inline-block;
+    width: 80%;
+}
+li { 
+margin-left: 3%;
+display: inline;
+text-decoration: none;
+}
+li a:visited {
+    color: white;
+}
+
+nav img {
+    height: 30%;
+    margin-left: 0%;
+    width: 14%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.Container1 {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box1 {
+    height:50%;
+    width: 40%;
+    background-color: #fff200;
+    display: inline-block;
+}
+.box2 {
+    height:50%;
+    width: 40%;
+    background-color: #fff200;
+    display: inline-block;
+    margin-left: 10%;
+}
+.box1 p {
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Caveat', cursive;
+}
+.box2 p {
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Caveat', cursive;
+
+}
+.text1 img {
+    height: 150px;
+    float: right;
+    padding-right: 10px;
+}
+.text2 img {
+    height: 150px;
+    float: left;
+    padding-left: 10px;
+}
+
